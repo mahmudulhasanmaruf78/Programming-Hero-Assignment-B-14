@@ -265,3 +265,39 @@ body {
   margin-top: 10px;
 }
 /* Hackathon Spotlight Section End */
+/* ----------------------------- */
+/* Footer Section  */
+.footer {
+  background: #060e18;
+  padding: 35px 60px 20px;
+}
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-links {
+  display: flex;
+  gap: 30px;
+}
+.footer-links a,
+.social-icons a {
+  color: white;
+  text-decoration: none;
+}
+.social-icons {
+  display: flex;
+  gap: 20px;
+  font-weight: 400;
+}
+.footer hr {
+  margin: 25px 0 15px;
+  border: none;
+  border-top: 1px solid #ffffff33;
+}
+.copyright {
+  text-align: center;
+  color: #b0b8c5;
+  font-size: 15px;
+}
+/* Footer Section End */
