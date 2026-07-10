@@ -160,3 +160,72 @@ body {
   color: #727886;
 }
 /* Meet the Speakers Section End */
+/* ----------------------------- */
+/* Pricing Section*/
+.pricing {
+  padding: 80px 40px;
+  text-align: center;
+}
+.pricing h2 {
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+.price {
+  color: #6b7280;
+  margin-bottom: 50px;
+}
+.pricing-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.pricing-card {
+  width: 320px;
+  padding: 25px;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  background: white;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+.plan {
+  color: #6b7280;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.pricing-card h3 {
+  font-size: 48px;
+  margin: 10px 0 5px;
+}
+.per-person {
+  color: #6b7280;
+  margin-bottom: 25px;
+}
+.pricing-card ul {
+  margin-left: 20px;
+  margin-bottom: 30px;
+  line-height: 2;
+}
+.pricing-card li {
+  color: #0d1b2a;
+}
+.pricing-card li::marker {
+  color: #1d4ed8;
+}
+.pricing-card .btn {
+  margin-top: auto;
+  width: 100%;
+}
+.pro {
+  background: #0d1b2a;
+  color: white;
+}
+.pro .plan,
+.pro .per-person,
+.pro li {
+  color: #828890;
+}
+/* Pricing Section End */
